@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  width: auto;
+  height: 70vh;
+}
+
+.top {
+  background-image: url(/assets/hero-img_copy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.profil {
+  position: relative;
+  z-index: 99;
+  top: 200px;
+  text-align: center;
+}
+
+.profil h1 {
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.profil p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#profil-pic {
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+  width: 284px;
+  height: 284px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box1 box2 box3"
+    "box4 box5 box6";
+  gap: 20px;
+}
+
+.box1 :hover {
+  transform: scale(1.1);
+}
+
+.box2 :hover {
+  transform: scale(1.1);
+}
+
+.box3 :hover {
+  transform: scale(1.1);
+}
+
+.box4 :hover {
+  transform: scale(1.1);
+}
+
+.box5 :hover {
+  transform: scale(1.1);
+}
+
+.box6 :hover {
+  transform: scale(1.1);
+}
+
+.boxes img {
+  max-width: 691.5px;
+  width: 100%;
+  max-height: 294px;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  background-color: gray;
+}
+
+footer img {
+  margin: auto;
+  height: 100px;
+}
