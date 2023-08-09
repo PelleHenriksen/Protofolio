@@ -42,8 +42,8 @@ header {
   display: flex;
   margin: auto;
   border-radius: 50%;
-  width: 284px;
-  height: 284px;
+  max-width: 284px;
+  max-height: 284px;
 }
 
 .grid-container {
